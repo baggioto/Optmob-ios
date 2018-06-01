@@ -13,6 +13,11 @@
 		32EF294220B60E7900449C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EF294120B60E7900449C6A /* Assets.xcassets */; };
 		32EF294520B60E7900449C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EF294320B60E7900449C6A /* LaunchScreen.storyboard */; };
 		32EF294820B60E7900449C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF294720B60E7900449C6A /* main.m */; };
+		32EF295020B60EA200449C6A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF294F20B60EA200449C6A /* HomeViewController.m */; };
+		32EF295320B60EB100449C6A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF295220B60EB100449C6A /* LoginViewController.m */; };
+		32EF295620B60F7000449C6A /* ProfessionalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF295520B60F7000449C6A /* ProfessionalsViewController.m */; };
+		32EF295920B60FAA00449C6A /* GlassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF295820B60FAA00449C6A /* GlassesViewController.m */; };
+		32EF295C20B60FD700449C6A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF295B20B60FD700449C6A /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		32EF294420B60E7900449C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EF294620B60E7900449C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32EF294720B60E7900449C6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32EF294E20B60EA200449C6A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		32EF294F20B60EA200449C6A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		32EF295120B60EB100449C6A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		32EF295220B60EB100449C6A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		32EF295420B60F7000449C6A /* ProfessionalsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfessionalsViewController.h; sourceTree = "<group>"; };
+		32EF295520B60F7000449C6A /* ProfessionalsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfessionalsViewController.m; sourceTree = "<group>"; };
+		32EF295720B60FAA00449C6A /* GlassesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlassesViewController.h; sourceTree = "<group>"; };
+		32EF295820B60FAA00449C6A /* GlassesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassesViewController.m; sourceTree = "<group>"; };
+		32EF295A20B60FD700449C6A /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		32EF295B20B60FD700449C6A /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,16 @@
 				32EF294320B60E7900449C6A /* LaunchScreen.storyboard */,
 				32EF294620B60E7900449C6A /* Info.plist */,
 				32EF294720B60E7900449C6A /* main.m */,
+				32EF294E20B60EA200449C6A /* HomeViewController.h */,
+				32EF294F20B60EA200449C6A /* HomeViewController.m */,
+				32EF295120B60EB100449C6A /* LoginViewController.h */,
+				32EF295220B60EB100449C6A /* LoginViewController.m */,
+				32EF295420B60F7000449C6A /* ProfessionalsViewController.h */,
+				32EF295520B60F7000449C6A /* ProfessionalsViewController.m */,
+				32EF295720B60FAA00449C6A /* GlassesViewController.h */,
+				32EF295820B60FAA00449C6A /* GlassesViewController.m */,
+				32EF295A20B60FD700449C6A /* AboutViewController.h */,
+				32EF295B20B60FD700449C6A /* AboutViewController.m */,
 			);
 			path = Optmob;
 			sourceTree = "<group>";
@@ -78,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32EF294B20B60E7900449C6A /* Build configuration list for PBXNativeTarget "Optmob" */;
 			buildPhases = (
+				D2D862C9E20FA4CAFD61352B /* [CP] Check Pods Manifest.lock */,
 				32EF293120B60E7800449C6A /* Sources */,
 				32EF293220B60E7800449C6A /* Frameworks */,
 				32EF293320B60E7800449C6A /* Resources */,
+				DB9A24294D7813B76160C424 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +163,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D2D862C9E20FA4CAFD61352B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		DB9A24294D7813B76160C424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32EF293120B60E7800449C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32EF293D20B60E7800449C6A /* ViewController.m in Sources */,
+				32EF295620B60F7000449C6A /* ProfessionalsViewController.m in Sources */,
+				32EF295C20B60FD700449C6A /* AboutViewController.m in Sources */,
 				32EF294820B60E7900449C6A /* main.m in Sources */,
 				32EF293A20B60E7800449C6A /* AppDelegate.m in Sources */,
+				32EF295020B60EA200449C6A /* HomeViewController.m in Sources */,
+				32EF295320B60EB100449C6A /* LoginViewController.m in Sources */,
+				32EF295920B60FAA00449C6A /* GlassesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
