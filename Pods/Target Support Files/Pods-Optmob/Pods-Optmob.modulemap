@@ -1,0 +1,6 @@
+module Pods_Optmob {
+  umbrella header "Pods-Optmob-umbrella.h"
+
+  export *
+  module * { export * }
+}

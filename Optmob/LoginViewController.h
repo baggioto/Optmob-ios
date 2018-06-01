@@ -9,5 +9,7 @@
 #import "ViewController.h"
 
 @interface LoginViewController : ViewController
-
+    @property (weak, nonatomic) IBOutlet FBSDKLoginButton *facebookButton;
+    
+    
 @end
